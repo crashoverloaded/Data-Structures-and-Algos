@@ -23,6 +23,8 @@ def is_match(p1,p2):
 		return True
 	if p1=="(" and p2==")":
 		return True
+	else:
+		return False
 def is_paren_balanced(input_string):
 	s = Stack()
 	is_balanced = True 
