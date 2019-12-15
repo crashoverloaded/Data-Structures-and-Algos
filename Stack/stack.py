@@ -15,11 +15,11 @@ class Stack():
 	def get_stack(self):
 		return self.items
 
-s = Stack()
+#s = Stack()
 #print(s.is_empty()) #-->Checking if Stack is empty or not
-s.push("A")
-s.push("B")
-s.push("C")
-s.push("D")
-print(s.get_stack())
-print(s.peek())
+#s.push("A")
+#s.push("B")
+#s.push("C")
+#s.push("D")
+#print(s.get_stack())
+#print(s.peek())
